@@ -1,0 +1,58 @@
+<!-- 21-10 mihir -->
+<!-- 8085 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="add_acc_body">
+   
+    <div class="container">
+
+        <h1>Add-Account</h1> 
+        <form method="POST" action="/monk">
+            <div class="box">
+                <select name="Bank" id="bank">
+                    <option value="Bank-A">Bank-A</option>
+                    <option value="Bank-B">Bank-B</option>
+                </select>
+            </div>
+            <div class="box">
+                <input type="text" name="name" id="" required>
+                <label for="">Name</label>
+            </div>    
+            <div class="box">
+                <input type="email" name="email" id="" required>
+                <label for="">Email</label>
+            </div>    
+            <div class="box">
+                <input type="number" name="phone_number" id="" required>
+                <label for="">phone_number</label>
+            </div>  
+            <div class="box">
+                <input type="text" name="aadhar_number" id="" required>
+                <label for="">Aadhar_number</label>
+            </div>  
+            <div >
+           <img src="qr.jpeg" style="height: 400px; width: 100%;"> 
+            </div>
+            <div class="box">
+                Deposite some amount using (Minimum 1 rupees is required and upload its screen shot)
+                <input type="file" name="amountp" enctype=”multipart/form-data”>
+                <input type="number" name="amount" id="" required>
+                <label for="">Initial Amount</label>
+            </div>  
+        <input type="submit" value="Create account" id="add" action = "">
+            <div class="box">
+                 Admin will verify your details and let you to create account 
+            </div>  
+        </form>
+        <a href="Bank.html"><input type="submit" value="Previous" id="prev"></a>
+    </div>
+    
+</body>
+</html>

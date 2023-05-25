@@ -1,0 +1,11 @@
+
+//esterling accime  for server connection 
+
+//node mon
+two ways of sending data to server from form by
+1 form built in
+  by action , body parser , req.body.
+2 ajax , fetch
+  jquery 
+
+  

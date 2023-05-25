@@ -1,0 +1,22 @@
+
+//esterling accime  for server connection 
+
+app.get('',(req,res)=>{
+
+});
+
+//first paramenter
+show where to show example
+app.get('/admin',(req,res)=>{
+   res.json('it is shown on url/admin')
+});
+
+
+///post
+app.post('/',(req,res)=>{
+
+});
+
+req to recieve , res to send 
+
+form action is the path where server is waiting for data
